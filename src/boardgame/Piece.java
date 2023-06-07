@@ -9,6 +9,7 @@ public class Piece {
 
     public Piece(Board board) {
         this.board = board;
+        this.position = null;
     }
 
     // será acessado somente pelo pacote e pelas subclasses de Piece
